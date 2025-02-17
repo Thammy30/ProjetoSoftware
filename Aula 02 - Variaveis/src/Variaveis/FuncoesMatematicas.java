@@ -19,7 +19,7 @@ public class FuncoesMatematicas {
 		
 		//Número aleatório
 		double numeroAleatorio = Math.random();
-		System.out.printf("% 1f %n",numeroAleatorio);  //Limita o numero de casas decimais
+		System.out.printf("%.1f %n",numeroAleatorio);  //Limita o numero de casas decimais %n quebra linha
 		
 	}
 
