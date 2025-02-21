@@ -6,7 +6,7 @@ public class Exercico04 {
 
 	public static void main(String[] args) {
 		
-Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Digite os capital inicial: ");
 		double C = sc.nextDouble();
