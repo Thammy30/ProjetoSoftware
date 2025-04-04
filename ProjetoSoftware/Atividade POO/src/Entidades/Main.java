@@ -41,7 +41,8 @@ public class Main {
 		            sc.nextLine();
 		            
 		            System.out.println("\nDados atualizados da roupa: ");
-		            System.out.println("Marca: " + roupa.getMarca() + ", Tipo: " + roupa.getTipo() + ", Tamanho: " + roupa.getTamanho() + ", Quantidade: " + roupa.getQuantidade() + ", Valor Unitário: " + roupa.getValor());
+		            System.out.println("Marca: " + roupa.getMarca() + ", Tipo: " + roupa.getTipo() + ", Tamanho: " + roupa.getTamanho() + ", Quantidade: "
+		            + roupa.getQuantidade() + ", Valor Unitário: " + roupa.getValor());
 		            System.out.printf("Valor total em estoque: R$ %.2f\n", roupa.valorTotal());
 
 		            System.out.print("\nDeseja cadastrar outra roupa? (s/n): ");
