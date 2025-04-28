@@ -1,6 +1,8 @@
 package entidades;
 
-public class Carro extends Veiculos{
+import servico.Aluguel;
+
+public class Carro extends Veiculos implements Aluguel{
 	
 	private boolean arCondicionado;
 
@@ -16,4 +18,18 @@ public class Carro extends Veiculos{
 			"\nvalorDiario: " + getValorDiario() +
 	        "\nArcondicionado:" + arCondicionado;
     }
+	@Override
+	public double calcularAluguel(int dias) {
+		
+		double valorTotal;
+		
+		if(arCondicionado) {
+			valorTotal = getValorDiario() * dias * 1.5;
+		}
+		else {
+			valorTotal = dias * getValorDiario();
+		}
+		
+		return valorTotal;
+	}
 }

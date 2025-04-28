@@ -19,6 +19,23 @@ public class Moto extends Veiculos{
 				"\nvalorDiario: " + getValorDiario() +
 				"\nMoto cilindradas: " + cilindradas;
 	}
+
+
+public double calcularAluguel(int dias) {
+		
+		double valorTotal;
+		
+		if(cilindradas <= 250) {
+			valorTotal = getValorDiario() * dias;
+		}else if (cilindradas <= 500) {
+			valorTotal = getValorDiario() * 1.5;
+		}
+		else {
+			valorTotal = dias * getValorDiario() * 2;
+		}
+		
+		return valorTotal;
+	}
 	
 	
 	
