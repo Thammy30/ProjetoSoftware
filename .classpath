@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="ProjetoSoftware/Aula 07- Encapsulamento/src"/>
-	<classpathentry kind="src" path="ProjetoSoftware/Aula3-Estruturas Condicionais/src"/>
-	<classpathentry kind="src" path="ProjetoSoftware/Aula4-estrutura de repeticao/src"/>
-	<classpathentry kind="src" path="ProjetoSoftware/Desafios_if_else/src"/>
-	<classpathentry kind="src" path="ProjetoSoftware/src"/>
-	<classpathentry kind="output" path="ProjetoSoftware/Aula 07- Encapsulamento/bin"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>
