@@ -7,14 +7,14 @@ import javafx.fxml.FXML;
 
 public class HomeController {
 
-    @FXML
-    void OnClickCadastrar(ActionEvent event) throws IOException {
-    	AlterarTelaController.mudarTela(event, "/view/TelaCadastro.fxml", "Tela Cadastro");
-    }
+	@FXML
+	void OnClickCadastrar(ActionEvent event) throws IOException {
+		AlterarTelaController.mudarTela(event, "/view/TelaCadastro.fxml", "Tela de Cadastro");
+	}
 
-    @FXML
-    void OnClickEntrar(ActionEvent event) {
-
-    }
+	@FXML
+	void OnClickEntrar(ActionEvent event) throws IOException {
+		AlterarTelaController.mudarTela(event, "/view/TelaLogin.fxml", "Tela Login");
+	}
 
 }
