@@ -15,30 +15,24 @@ public class DesafioExecoes {
 		try {
 			System.out.println("Digite um numero: ");
 			numero = sc.nextInt();
-			
 			System.out.println("Digite o denominador:");
 			denominador = sc.nextInt();
 			
 			int resultado = numero / denominador;
 			System.out.println("Resultado da divisao: " + resultado);
 			
-			
 			}catch (ArithmeticException e) {
 				System.out.println("Erro: " + e.getMessage());
 				sc.nextLine();
 				continue;
-				
 			}catch(java.util.InputMismatchException e) {
 				System.out.println("Entrada inválida! ");
 				break;
 			}
-		
 		sc.nextLine();
 		}
-		
 		sc.close();
 	}	
-
 }
 
 
